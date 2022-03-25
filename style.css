@@ -1,0 +1,45 @@
+.btn-section-2 {
+    box-shadow: 2px 20px 50px rgba(245, 56, 56, 0.50);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.right-section-2 {
+    padding: 5rem;
+}
+
+.card-header {
+    background-color: transparent !important;
+}
+
+.numbers-triggers {
+    position: relative;
+    top: 20rem;
+    left: -33rem;
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 576px) {
+    .navbar {
+        position: fixed;
+        z-index: 1000;
+        overflow: hidden;
+    }
+    .navbar .navbar-brand {
+        padding-top: 4px;
+        font-size: 15px;
+    }
+    .typo-newslatter h4,
+    p {
+        text-align: center;
+    }
+    .subscribe button {
+        display: block !important;
+        width: 100% !important;
+    }
+}
